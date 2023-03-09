@@ -1,0 +1,177 @@
+Column,Label,Format,Units,Remarks,Explanations
+1,Karmn,String,---,*,CARMENES star identification (JHHMMm+DDdAAA)
+2,Name,String,---,*,Discovery or most common name
+3,Comp,String,---,*,Component in multiple system
+4,GJ,String,---,,Gliese-Jahreiss number
+5,RA_J2016_deg,Double,deg,,Right ascension in sexagesimal units at epoch J2016.0 in equinox J2000
+6,DE_J2016_deg,Double,deg,,Declination in sexagesimal units at epoch J2016.0 in equinox J2000
+7,RA_J2000,String,hms,*,Right ascension in decimal degrees at epoch J2000 in equinox J2000
+8,DE_J2000,String,dms,*,Declination in decimal degrees at epoch J2000 in equinox J2000
+9,l_J2016_deg,Double,deg,,Galactic longitude at epoch J2016.0 in equinox J2000
+10,b_J2016_deg,Double,deg,,Galactic latitude at epoch J2016.0 in equinox J2000
+11,Ref01,String,---,,Reference for equatorial coordinates
+12,SpT,String,---,,Spectral type
+13,SpTnum,Float,---,*,Spectral type in numerical format
+14,Ref02,String,---,,Reference for spectral type
+15,Teff_K,Short,K,,Effective temperature
+16,eTeff_K,Float,K,,Effective temperature error
+17,logg,Float,---,,Surface gravity
+18,elogg,Float,---,,Surface gravity error
+19,[Fe/H],Float,---,,Metallicity
+20,e[Fe/H] ,Float,---,,Metallicity error
+21,Ref03,String,---,,"Reference for Teff, logg, [Fe/H]"
+22,L_Lsol,Double,Lsun,*,Luminosity
+23,eL_Lsol,Double,Lsun,,Luminosity error
+24,Ref04,String,---,,Reference for L_Lsol
+25,R_Rsol,Double,Rsun,*,Stellar radius
+26,eR_Rsol,Double,Rsun,,Stellar radius error
+27,Ref05,String,---,,Reference for stellar radius
+28,M_Msol,Double,Msun,*,Mass
+29,eM_Msol,Double,Msun,,Mass error
+30,Ref06,String,---,,Reference for mass
+31,muRA_masa-1,Double,mas/yr,,Proper motion in right ascension
+32,emuRA_masa-1,Double,mas/yr,,Proper motion error in right ascension
+33,muDE_masa-1,Double,mas/yr,,Proper motion in right declination
+34,emuDE_masa-1,Double,mas/yr,,Proper motion error in right declination
+35,Ref07,String,---,*,Reference for proper motion
+36,pi_mas,Double,mas,,Parallax
+37,epi_mas,Double,mas,,Parallax error
+38,Ref08,String,---,*,Reference for parallax
+39,d_pc,Double,pc,,Distance
+40,ed_pc,Double,pc,,Distance error
+41,Ref09,String,---,*,Reference for distance
+42,Vr_kms-1,Double,km/s,,Radial velocity
+43,eVr_kms-1,Double,km/s,,Radial velocity error
+44,Ref10,String,---,*,Reference for radial velocity
+45,ruwe,Double,---,*,Renormalised unit weighted error from Gaia EDR3
+46,Ref11,String,---,,Reference for ruwe
+47,U_kms-1,Float,km/s,,U Galactocentric space velocity
+48,eU_kms-1,Float,km/s,,U Galactocentric space velocity error
+49,V_kms-1,Float,km/s,,V Galactocentric space velocity
+50,eV_kms-1,Float,km/s,,V Galactocentric space velocity error
+51,W_kms-1,Float,km/s,,W Galactocentric space velocity
+52,eW_kms-1,Float,km/s,,W Galactocentric space velocity error
+53,Ref12,String,---,,Reference for Galactocentric space velocities
+54,sa_m/s/a,Double,m/s/a,,Secular acceleration
+55,esa_m/s/a,Double,m/s/a,,Secular acceleration error
+56,Ref13,String,---,,Reference for secular acceleration
+57,SKG,String,---,,Stellar kinematic group membership
+58,Ref14,String,---,*,Reference for SKG membership
+59,SKG_lit,String,---,,Stellar kinematic group membership in the literature
+60,Ref14_lit,String,---,,Reference in the literature for SKG membership
+61,Pop,String,---,,Stellar population
+62,Ref15,String,---,*,Reference for stellar population
+63,vsini_flag,String,---,*,Rotational velocity flag
+64,vsini_kms-1,Float,km/s,,Rotational velocity
+65,evsini_kms-1,Float,km/s,,Rotational velocity error
+66,Ref16,String,---,,Reference for rotational velocity
+67,P_d,Double,d,,Rotational (or cycle) period
+68,eP_d,Double,d,,Rotational (or cycle) period error
+69,Ref17,String,---,,Reference for rotational period
+70,pEWalpha_A,Float,AA,,Halpha pseudoequivalent width
+71,epEWalpha_A,Float,AA,,Halpha pseudoequivalent width error
+72,Ref18,String,---,,Reference for Halpha pseudoequivalent width
+73,log(LHalpha/Lbol),Float,---,,Logaritm of the Halpha luminosity and bolometric luminosity ratio.
+74,elog(LHalpha/Lbol),Float,---,,Error of the logaritm of the Halpha luminosity and bolometric luminosity ratio.
+75,Ref19,String,---,,Reference of the logaritm of the Halpha luminosity and bolometric luminosity ratio.
+76,1RXS,String,---,,ROSAT All-Sky Survey Catalogue source name
+77,CRT_s-1,Double,count/s,,Source count rate
+78,eCRT_s-1,Double,count/s,,Source count rate error
+79,HR1,Float,---,,Hardness ratio 1
+80,eHR1,Float,---,,HR1 error
+81,HR2,Float,---,,Hardness ratio 2
+82,eHR2,Float,---,,HR2 error
+83,Flux_X_E-13_ergcm-2s-1,Float,E-13 erg/cm2/s,,X-ray flux
+84,eFlux_X_E-13_ergcm-2s-1,Float,E-13 erg/cm2/s,,X-ray flux error
+85,LX/LJ,Double,---,,Ratio of X-ray and J-band luminosities
+86,eLX/LJ,Float,---,,Ratio of X-ray and J-band luminosities error
+87,Ref20,String,---,,Reference for X-ray emission. 1RXS = Voges et al. 1999; 1RXS* = Voges et al. 1999 non automatic search.
+88,Activity,String,---,,Boolean flare indicator
+89,Ref21,String,---,,Reference for flaring activity
+90,FUV_mag,Float,mag,,GALEX far-UV magnitude (134.4-178.6 nm)
+91,eFUV_mag,Float,mag,,GALEX far-UV magnitud error
+92,NUV_mag,Float,mag,,GALEX near-UV magnitude (177.1-283.1 nm)
+93,eNUV_mag,Float,mag,,GALEX near-UV magnitud error
+94,Ref22,String,---,,Reference for FUV and NUV magnitudes
+95,u_mag,Float,mag,,SDSS 2.5 m u magnitude (355.1 nm)
+96,eu_mag,Float,mag,,SDSS 2.5 m u magnitude error
+97,Ref23,String,---,,Reference for u magnitude
+98,BT_mag,Float,mag,,Tycho-2 BT magnitude
+99,eBT_mag,Float,mag,,Tycho-2 BT magnitude error
+100,Ref24,String,---,,Reference for Tycho-2 BT magnitude
+101,B_mag,Float,mag,*,Johnson B magnitude (440 nm)
+102,eB_mag,Float,mag,,Johnson B magnitude error
+103,Ref25,String,---,,Reference for Johnson B magnitude
+104,BP_mag,Float,mag,,Gaia EDR3 integrated BP mean magnitude
+105,eBP_mag,Float,mag,,Standard error of BP mean magnitude (Vega) (as computed by CDS)
+106,Ref26,String,---,,Reference for BP magnitude
+107,g_mag,Float,mag,*,SDSS 2.5 m g magnitude (468.6 nm)
+108,eg_mag,Float,mag,,SDSS 2.5 m g magnitude error
+109,Ref27,String,---,,Reference for g magnitude
+110,VT_mag,Float,mag,,Tycho-2 VT magnitude
+111,eVT_mag,Float,mag,,Tycho-2 VT magnitude error
+112,Ref28,String,---,,Reference for Tycho-2 VT magnitude
+113,GG_mag,Float,mag,,Gaia EDR3 G-band mean magnitude
+114,eGG_mag,Float,mag,,Standard error of G-band mean magnitude (Vega) (as computed by CDS)
+115,Ref29,String,---,,Reference for Gaia G-band mean magnitude
+116,V_mag,Float,mag,*,Johnson V magnitude (540 nm)
+117,eV_mag,Float,mag,,Johnson V magnitude error
+118,Ref30,String,---,,Reference for Johnson V magnitude
+119,Ra_mag,Float,mag,,R-band UCAC3/UCAC4 aperture magnitude (579-642 nm)
+120,Ref31,String,---,,Reference for R-band magnitude
+121,r_mag,Float,mag,*,SDSS 2.5 m r magnitude (616.5 nm)
+122,er_mag,Float,mag,,SDSS 2.5 m r magnitude error
+123,Ref32,String,---,,Reference for r magnitude
+124,RP_mag,Float,mag,,Gaia EDR3 integrated RP mean magnitude
+125,eRP_mag,Float,mag,,Standard error of RP mean magnitude (Vega) (as computed by CDS)
+126,Ref33,String,---,,Reference for RP magnitude
+127,i_mag,Float,mag,*,SDSS 2.5 m i magnitude (748.1 nm)
+128,ei_mag,Float,mag,,SDSS 2.5 m i magnitude error
+129,Ref34,String,---,,Reference for i magnitude
+130,IN_mag,Float,mag,,I_N-band USNO-B1 photographic infrared magnitude
+131,Ref35,String,---,,Reference for I_N-band magnitude
+132,J_mag,Float,mag,,J magnitude
+133,eJ_mag,Float,mag,,J magnitude error
+134,H_mag,Float,mag,,H magnitude
+135,eH_mag,Float,mag,,H magnitude error
+136,Ks_mag,Float,mag,,Ks magnitude
+137,eKs_mag,Float,mag,,Ks magnitude error
+138,QFlag_2M,String,---,,JHKs photometric quality flag
+139,Ref36,String,---,,Reference for JHKs magnitudes
+140,W1_mag,Float,mag,,WISE W1 magnitude (3350 nm)
+141,eW1_mag,Float,mag,,WISE W1 magnitude error
+142,W2_mag,Float,mag,,WISE W2 magnitude (4600 nm)
+143,eW2_mag,Float,mag,,WISE W2 magnitude error
+144,W3_mag,Float,mag,,WISE W3 magnitude (11600 nm)
+145,eW3_mag,Float,mag,,WISE W3 magnitude error
+146,W4_mag,Float,mag,,WISE W4 magnitude (22100 nm)
+147,eW4_mag,Float,mag,,WISE W4 magnitude error
+148,QFlag_WISE,String,---,,W1W2W3W4 photometric quality flag
+149,Ref37,String,---,,Reference for W1W2W3W4 magnitudes
+150,Multiplicity,String,---,*,Multiplicity indicator
+151,WideWDS,String,---,,"Washington Double Star identifier of ""wide"" pair(s)"
+152,Widerho_arcsec,String,arcsec,,"Angular separation between components of ""wide"" pair(s)"
+153,eWiderho_arcsec,String,arcsec,,Angular separation error
+154,Ref38,String,---,,Reference for angular separation
+155,WidecompanionName,String,---,,"Name of ""wide"" companion"
+156,WideCompanionSpT,String,---,,"Spectral type of ""wide"" companion"
+157,CloseWDS,String,---,,"Washington Double Star identifier of ""close"" pair(s)"
+158,Closerho_arcsec,String,arcsec,,"Angular separation between components of ""close"" pair(s)"
+159,eCloserho_arcsec,String,arcsec,,Angular separation error
+160,Ref39,String,---,,Reference for angular separation
+161,CloseCompanionSpT,String,---,,"Spectral type of ""close"" companion"
+162,RV,String,---,,In past or current radial-velocity searches for planets
+163,Planet,String,---,,Known exoplanet flag
+164,PlanetNum,Short,---,,Number of discovered exoplanets
+165,Ref40,String,---,,Reference for planet(s) discovery
+166,LoRes_spectrum,String,---,,Available low resolution spectra 
+167,HiRes_spectrum,String,---,,Available high resolution spectra 
+168,LoRes_imaging,String,---,,Available low resolution imaging 
+169,HiRes_imaging,String,---,*,Available high resolution imaging
+170,Class,String,---,*,Priority class
+171,Survey,String,---,*,Survey membership
+172,Notes,String,---,,Annotations
+173,Gaia_id_1,Long,---,,Gaia EDR3 source identifier for primaries
+174,2MASS_id,Long,---,,2MASS identifier
+175,TIC_id,Long,---,,TIC identifier
+176,TOI,String,---,,Tess Object of Interest number
