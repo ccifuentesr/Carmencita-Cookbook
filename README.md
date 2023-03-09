@@ -12,6 +12,8 @@
 
 ### Utilities
 
+This folder contains a miscellanea of useful pieces of code (```carmencita.***.py```):
+
 - ```density```: Compute stellar density and its error from the Third Kepler Law.
 - ```distance```: Compute distance and error from parallax.
 - ```KarmnID```: Provide Karmn ID based on equatorial coordinates.
