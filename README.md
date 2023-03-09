@@ -10,6 +10,16 @@
 
 ## Directories
 
+### Utilities
+
+- ```density```: Compute stellar density and its error from the Third Kepler Law.
+- ```distance```: Compute distance and error from parallax.
+- ```KarmnID```: Provide Karmn ID based on equatorial coordinates.
+- ```log_readme```: Generator of the log and readme files that describe Carmencita.
+- ```MR```: Compute radius and mass from bolometric luminosity.
+- ```significantfig```: Produces new columns with ounded values.
+- ```VOSA```: Generates the custom input format for VOSA.
+
 ### Models
 
 - ```DUSTY00``` isochrones to obtain masses and radii via the bolometric luminosity.
