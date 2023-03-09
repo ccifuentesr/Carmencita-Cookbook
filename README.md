@@ -1,4 +1,4 @@
-# Carmencita Cookbook: The best recipes with Carmencita
+# Carmencita Cookbook: The Best Recipes
 
 > This repository contains a variety of utilities to use with Carmencita data. 
 > Carmencita is the CARMENES Cool star Information and daTa Archive 
